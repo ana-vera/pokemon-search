@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Pokemon</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body id="body">
+    <audio controls  autoplay>
+        <source src="./110-pokemon center.mp3" type="audio/mpeg">
+    </audio>
+  
+    <div class="grid-container" id="grid">
+        
+        <div class="top-row">
+            <img src="./pokedex.png" alt="">
+            <form id="formElement">
+                <label for="searchbar" >SEARCH BAR</label>
+                <input id="searchbar" type="text" placeholder="Enter pokemon name">
+                <button for="searchbar" type="submit" class="hide-card">Search</button>
+            </form>
+        </div>
+        
+
+    
+    </div>
+
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./pokeapi2.js"></script>
+    <script type="module" src="./createCardFile.js"></script>
+</body>
+
+
+</html>
